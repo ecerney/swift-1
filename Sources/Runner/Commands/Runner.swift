@@ -108,7 +108,7 @@ func runDanger(logger: Logger) throws {
         libArgs += ["-lDanger"] // Eval the code with the Target Danger added
     }
 
-    logger.debug("Preparing to compile")
+    logger.debug("Eric, Preparing to compile")
     let tempDangerfilePath = tmpPath + "_tmp_dangerfile.swift"
 
     let generator = DangerFileGenerator()
